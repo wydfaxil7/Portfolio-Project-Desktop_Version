@@ -448,3 +448,51 @@ div.connect img {
 }
 
 /* End works */
+
+/* Start about me */
+#about {
+  background-color: white;
+  border-top-right-radius: 100px;
+  padding-bottom: 100px;
+}
+
+#about .container {
+  padding-top: 114px;
+}
+
+#about .skills {
+  margin-top: 60px;
+}
+
+#about .skills .card-list .view {
+  padding: 23px 10px;
+  margin: 10px;
+  border-bottom: 1px solid #dfe1e6;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .skills .card-list ul {
+  margin: 12px;
+  display: grid;
+  gap: 12px;
+}
+
+#about .skills .card-list ul li {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  padding: 9px 9px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+}
+
+/* End about me */
