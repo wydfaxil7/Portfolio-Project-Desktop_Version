@@ -265,6 +265,80 @@ header .burger-button.active + nav ul li a {
 
 /* End header */
 
+/* Start landing */
+
+#landing-page {
+  height: 100vh;
+  position: relative;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  background-image: url("../img/header-shapes\ mobile.jpg");
+  background-size: cover;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+  color: white;
+}
+
+#landing-page .container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14px;
+}
+
+footer p {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+hgroup.info {
+  width: 100%;
+}
+
+hgroup.info h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 12px;
+}
+
+hgroup.info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 12px;
+}
+
+div.connect p {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.popup-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.connect img {
+  width: 14.17px;
+}
+
+/* End landing */
+
 /* Start works */
 
 .bg-popup.active {
