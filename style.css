@@ -265,6 +265,8 @@ header .burger-button.active + nav ul li a {
 
 /* End header */
 
+/* Start landing */
+
 #landing-page {
   height: 100vh;
   position: relative;
