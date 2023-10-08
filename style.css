@@ -576,3 +576,64 @@ footer form textarea {
 }
 
 /* End contact */
+
+/* start popup */
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 15px;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  z-index: 20;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+}
+
+.popup-card .card-work {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 15px;
+}
+
+.popup-card .img-div {
+  height: 100%;
+  display: block;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.popup-card .button-contaner {
+  padding-top: 0 !important;
+}
+
+.popup-card hgroup .button-contaner {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.close-popup {
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.popup-card .popup-btn {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0;
+  display: inline-flex;
+}
+
+/* end popup */
