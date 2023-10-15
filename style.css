@@ -293,6 +293,8 @@ footer .container {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 14px;
+  animation: mySlide;
+  animation-duration: 3s;
 }
 
 footer p {
@@ -338,6 +340,12 @@ div.connect img {
 }
 
 /* End landing */
+
+/* Starting animation */
+@keyframes mySlide {
+  from { margin-left: 100%; }
+  to { margin-left: 0%; }
+}
 
 /* Start works */
 
@@ -457,7 +465,7 @@ div.connect img {
 }
 
 #about .container {
-  padding-top: 114px;
+  padding-top: 115px;
 }
 
 #about .skills {
@@ -637,3 +645,4 @@ footer form textarea {
 }
 
 /* end popup */
+
