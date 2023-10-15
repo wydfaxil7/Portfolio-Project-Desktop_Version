@@ -451,8 +451,3 @@ div.connect img {
 
 /* End works */
 
-/* applying animation */
-@keyframes mySlide {
-  from { margin-left: 100%; }
-  to { margin-left: 0%; }
-}
