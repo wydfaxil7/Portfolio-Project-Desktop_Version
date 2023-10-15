@@ -293,6 +293,8 @@ footer .container {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 14px;
+  animation: mySlide;
+  animation-duration: 3s;
 }
 
 footer p {
@@ -448,3 +450,9 @@ div.connect img {
 }
 
 /* End works */
+
+/* applying animation */
+@keyframes mySlide {
+  from { margin-left: 100%; }
+  to { margin-left: 0%; }
+}
