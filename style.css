@@ -341,6 +341,12 @@ div.connect img {
 
 /* End landing */
 
+/*Starting animation*/
+@keyframes mySlide{
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+}
+
 /* Start works */
 
 .bg-popup.active {
